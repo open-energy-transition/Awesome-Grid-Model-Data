@@ -1,0 +1,56 @@
+# SPDX-FileCopyrightText: 2025 Open Energy Transition (OET)
+#
+# SPDX-License-Identifier: MIT
+
+name: 🔗 Link Check with Badge and Gist
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 5 * * 1'
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🔧 Install lychee
+        uses: lycheeverse/lychee-action@v1.8.0
+
+      - name: 🔎 Run lychee and write clean JSON
+        run: |
+          lychee --no-progress --format json --max-concurrency 2 --retry-wait-time 5 --timeout 30 --output lychee.json README.md || true
+          
+      - name: 🧪 Validate lychee.json format with jq
+        run: |
+          echo "🔍 Validating JSON syntax:"
+          jq . lychee.json
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: 🧮 Generate badge JSON from lychee.json
+        run: python .github/scripts/generate_badge.py
+
+      - name: 🛠 Make update_gist.sh executable
+        run: chmod +x .github/scripts/update_gist.sh
+
+      - name: 🚀 Update badge Gist
+        run: .github/scripts/update_gist.sh
+        env:
+            GIST_ID: 8eca1f79637060fbbc23a602ce534994
+            GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+
+      - name: 💾 Upload badge JSON as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-status-badge
+          path: link-status.json
