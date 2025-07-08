@@ -28,7 +28,6 @@ This list can include model datasets for both open-source and commercial/proprie
 This repository is for educational and research use only. We do not host, own, or guarantee the availability of any linked datasets. Some datasets may require proprietary software (e.g., PLEXOS, PowerWorld, PSSE, PSLF) to access or use. Inclusion of such datasets does not imply endorsement, affiliation, or sponsorship by any software vendor.  All trademarks, including PLEXOS, are the property of their respective owners and are used here solely for identification and interoperability purposes. Users are responsible for obtaining appropriate software licenses and complying with all applicable terms. For dataset-specific inquiries, contact the original data providers.
 
 ## Table of contents
-
 - [Disclaimer](#disclaimer)
 - [Table of contents](#table-of-contents)
 - [Contribution Guide](#contribution-guide)
@@ -40,6 +39,7 @@ This repository is for educational and research use only. We do not host, own, o
   - [PSSE (`.raw`)](#psse-raw)
   - [PSLF (`.epc` / `.dyd`)](#pslf-epc--dyd)
 - [Open Source Modeling Tools](#open-source-modeling-tools)
+  - [PyPSA](#pypsa)
   - [MATPOWER (`.m`)](#matpower-m)
 
 ## Contribution Guide
@@ -90,36 +90,38 @@ PLEXOS model data listed here are input XML files that are meant to contain the 
 
 #### AEMO (Australian Energy Market Operator)
 
-- **2024 Integrated System Plan (ISP)**[AEMO ISP 2024 PLEXOS Model](https://aemo.com.au/-/media/files/major-publications/isp/2024/supporting-materials/2024-isp-model.zip?la=en)
-- **2022 Integrated System Plan (ISP)**[AEMO ISP 2022 PLEXOS Model](https://aemo.com.au/-/media/files/major-publications/isp/2022/2022-documents/2022-isp-model.zip?la=en)
-- **2020 Integrated System Plan (ISP)**[AEMO ISP 2020 PLEXOS Model](https://aemo.com.au/-/media/files/major-publications/isp/2020/2020-final-isp-model.zip?la=en)
-- **2018 Integrated System Plan (ISP)**
+- **2024 Integrated System Plan (ISP)** [AEMO ISP 2024 PLEXOS Model](https://aemo.com.au/-/media/files/major-publications/isp/2024/supporting-materials/2024-isp-model.zip?la=en)
+- **2022 Integrated System Plan (ISP)** [AEMO ISP 2022 PLEXOS Model](https://aemo.com.au/-/media/files/major-publications/isp/2022/2022-documents/2022-isp-model.zip?la=en)
+- **2020 Integrated System Plan (ISP)** [AEMO ISP 2020 PLEXOS Model](https://aemo.com.au/-/media/files/major-publications/isp/2020/2020-final-isp-model.zip?la=en)
+- **2018 Integrated System Plan (ISP)** 
   [AEMO ISP 2018 Input Data &amp; PLEXOS DLT Model](https://aemo.com.au/energy-systems/major-publications/integrated-system-plan-isp/2018-integrated-system-plan-isp)
 
 #### CAISO (California ISO)
 
-- **2024 IRP 25 MMT Stochastic PLEXOS Model**[CAISO IRP 2024 PLEXOS Model](https://www.caiso.com/documents/caiso-irp23-stochastic-2024-0517.zip)
-- **2021 IRP 38MMT PSP Stochastic/Deterministic PLEXOS Models**[CAISO IRP 2021 Stochastic 2026](https://www.caiso.com/documents/caiso-integrated-resource-planning-38mmt-coreportfolio-plexos-stochastic-2026.zip)[CAISO IRP 2021 Stochastic 2030](https://www.caiso.com/documents/caiso-integrated-resource-planning-38mmt-coreportfolio-plexos-stochastic-2030.zip)[CAISO IRP 2021 Deterministic 2026/2030](https://www.caiso.com/documents/caiso-integrated-resource-planning-38mmt-coreportfolio-plexos-deterministic-2026-2030.zip)
-- **2025 Summer Loads and Resources Assessment**
-  [CAISO 2025 Summer Stochastic Model](https://www.caiso.com/documents/2025-summer-loads-and-resources-assessment-public-stochastic-model.zip)
+- **2024 IRP 25 MMT Stochastic PLEXOS Model** [CAISO IRP 2024 PLEXOS Model](https://www.caiso.com/documents/caiso-irp23-stochastic-2024-0517.zip)
+- **2021 IRP 38MMT PSP Stochastic/Deterministic PLEXOS Models** 
+  - [CAISO IRP 2021 Stochastic 2026](https://www.caiso.com/documents/caiso-integrated-resource-planning-38mmt-coreportfolio-plexos-stochastic-2026.zip)
+  - [CAISO IRP 2021 Stochastic 2030](https://www.caiso.com/documents/caiso-integrated-resource-planning-38mmt-coreportfolio-plexos-stochastic-2030.zip)
+  - [CAISO IRP 2021 Deterministic 2026/2030](https://www.caiso.com/documents/caiso-integrated-resource-planning-38mmt-coreportfolio-plexos-deterministic-2026-2030.zip)
+- **2025 Summer Loads and Resources Assessment** [CAISO 2025 Summer Stochastic Model](https://www.caiso.com/documents/2025-summer-loads-and-resources-assessment-public-stochastic-model.zip)
 
 #### NREL (National Renewable Energy Laboratory)
 
-- **Extended IEEE 118-bus Test System (High Renewables)**
+- **Extended IEEE 118-bus Test System (High Renewables)** 
   [NREL IEEE 118-bus PLEXOS Model](https://db.bettergrids.org/bettergrids/handle/1001/120?mode=full#:~:text=File%20Description%20Size%20Format%20Export,on%20IEEE%20Transactions%20on%20Power)
 
 #### SEM (Ireland)
 
-- **2025 SEM PLEXOS Model Validation (2024-2032)**[SEM 2025 PLEXOS Model](https://www.semcommittee.com/publications/sem-25-010-sem-plexos-model-validation-2024-2032-and-backcast-report)
-- **2021 SEM PLEXOS Model Validation (2021-2029)**[SEM 2021 PLEXOS Model](https://www.semcommittee.com/publications/sem-21-086-sem-plexos-model-validation-2021-2029-and-backcast-report)
+- **2025 SEM PLEXOS Model Validation (2024-2032)** [SEM 2025 PLEXOS Model](https://www.semcommittee.com/publications/sem-25-010-sem-plexos-model-validation-2024-2032-and-backcast-report)
+- **2021 SEM PLEXOS Model Validation (2021-2029)** [SEM 2021 PLEXOS Model](https://www.semcommittee.com/publications/sem-21-086-sem-plexos-model-validation-2021-2029-and-backcast-report)
 - **2020 SEM PLEXOS Forecast Model (2020-2025)**
   [SEM 2020 PLEXOS Model](https://www.semcommittee.com/publications/sem-20-003-sem-plexos-forecast-model-2020-2025)
 
 #### University College Cork
 
-- **2024 PLEXOS-World - Spatial Resolution Case Study**[UCC 2024 PLEXOS-World Model](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NY1QW0)
-- **2015 PLEXOS-World**[UCC 2015 PLEXOS-World Model](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CBYXBY)
-- **EU Gas and Electricity Model**
+- **2024 PLEXOS-World - Spatial Resolution Case Study** [UCC 2024 PLEXOS-World Model](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NY1QW0)
+- **2015 PLEXOS-World** [UCC 2015 PLEXOS-World Model](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CBYXBY)
+- **EU Gas and Electricity Model** 
   [UCC EU Power &amp; Gas Model](https://www.dropbox.com/scl/fi/biv5n52x8s5pxeh06u2b1/EU-Power-Gas-Model.zip?rlkey=hmscke4vsknxbj6w18vosfyxb&e=1&dl=0)
 
 ### PowerWorld (`.pwb/.pwd`)
