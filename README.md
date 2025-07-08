@@ -28,7 +28,6 @@ This list can include model datasets for both open-source and commercial/proprie
 This repository is for educational and research use only. We do not host, own, or guarantee the availability of any linked datasets. Some datasets may require proprietary software (e.g., PLEXOS, PowerWorld, PSSE, PSLF) to access or use. Inclusion of such datasets does not imply endorsement, affiliation, or sponsorship by any software vendor.  All trademarks, including PLEXOS, are the property of their respective owners and are used here solely for identification and interoperability purposes. Users are responsible for obtaining appropriate software licenses and complying with all applicable terms. For dataset-specific inquiries, contact the original data providers.
 
 ## Table of contents
-
 - [Disclaimer](#disclaimer)
 - [Table of contents](#table-of-contents)
 - [Contribution Guide](#contribution-guide)
@@ -40,6 +39,7 @@ This repository is for educational and research use only. We do not host, own, o
   - [PSSE (`.raw`)](#psse-raw)
   - [PSLF (`.epc` / `.dyd`)](#pslf-epc--dyd)
 - [Open Source Modeling Tools](#open-source-modeling-tools)
+  - [PyPSA](#pypsa)
   - [MATPOWER (`.m`)](#matpower-m)
 
 ## Contribution Guide
