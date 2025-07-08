@@ -316,6 +316,14 @@ The following test cases are available in GE PSLF format:
 
 ## Open Source Modeling Tools
 
+### PyPSA 
+
+#### PyPSA-Eur
+- **PyPSA-Eur: An open sector-coupled optimisation model of the European energy system**. [Zenodo](https://zenodo.org/records/15163251)
+
+#### PyPSA-Earth
+- **The impact of temporal hydrogen regulation on hydrogen exporters and their domestic energy transition**. [Zenodo](https://zenodo.org/records/10951650)
+
 ### MATPOWER (`.m`)
 
 Many MATPOWER test cases are available on their [Github](https://github.com/MATPOWER/matpower/tree/master/data).
