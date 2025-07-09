@@ -1,1 +1,0 @@
-Credit: electricity distribution network by Sofiah from <a href="https://thenounproject.com/browse/icons/term/electricity-distribution-network/" target="_blank" title="electricity distribution network Icons">Noun Project</a> (CC BY 3.0)
