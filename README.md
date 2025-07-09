@@ -9,17 +9,17 @@ SPDX-License-Identifier: CC0-1.0
 <table>
 <tr>
 <td>
-<b>A curated collection of publicly available electricity grid (production cost model, power flow, etc.) model datasets for academic and industry research. </b>
+<b>A curated collection of publicly available electricity grid (production cost, power flow, etc.) model datasets for academic and industry research. </b>
 </td>
 <td>
 
-<img src="https://raw.githubusercontent.com/open-energy-transition/Awesome-Electric-Grid-Mapping/refs/heads/main/ohmygrid-logo.png" alt="Global Grid Mapping" width="350">
+<img src="https://raw.githubusercontent.com/open-energy-transition/Awesome-Grid-Model-Data/refs/heads/main/logo/network.png" alt="Awesome Grid Model Data" width="200">
 
 </td>
 </tr>
 </table>
 
-This list can include model datasets for both open-source and commercial/proprietary modeling tools.
+This list includes datasets for both open-source and commercial/proprietary modeling tools.
 
 [![Link Health](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/pz-max/8eca1f79637060fbbc23a602ce534994/raw/link-status.json)](https://github.com/open-energy-transition/Awesome-Grid-Model-Data/actions/workflows/link-check.yml)
 
