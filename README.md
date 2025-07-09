@@ -9,7 +9,7 @@ SPDX-License-Identifier: CC0-1.0
 <table>
 <tr>
 <td>
-<b>A curated collection of publicly available electricity grid (production cost model, power flow, etc.) model datasets for academic and industry research. </b>
+<b>A curated collection of publicly available electricity grid (production cost, power flow, etc.) model datasets for academic and industry research. </b>
 </td>
 <td>
 
