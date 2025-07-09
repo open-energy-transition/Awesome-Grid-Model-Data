@@ -19,7 +19,7 @@ SPDX-License-Identifier: CC0-1.0
 </tr>
 </table>
 
-This list can include model datasets for both open-source and commercial/proprietary modeling tools.
+This list includes datasets for both open-source and commercial/proprietary modeling tools.
 
 [![Link Health](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/pz-max/8eca1f79637060fbbc23a602ce534994/raw/link-status.json)](https://github.com/open-energy-transition/Awesome-Grid-Model-Data/actions/workflows/link-check.yml)
 
