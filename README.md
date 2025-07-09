@@ -13,7 +13,7 @@ SPDX-License-Identifier: CC0-1.0
 </td>
 <td>
 
-<img src="https://raw.githubusercontent.com/open-energy-transition/Awesome-Grid-Model-Data/refs/heads/mm/logo/logo/logo-2.png" alt="Awesome Grid Model Data" width="350">
+<img src="https://raw.githubusercontent.com/open-energy-transition/Awesome-Grid-Model-Data/refs/heads/mm/logo/logo/network.png" alt="Awesome Grid Model Data" width="350">
 
 </td>
 </tr>
