@@ -38,6 +38,7 @@ This repository is for educational and research use only. We do not host, own, o
   - [PowerWorld (`.pwb/.pwd`)](#powerworld-pwbpwd)
   - [PSSE (`.raw`)](#psse-raw)
   - [PSLF (`.epc` / `.dyd`)](#pslf-epc--dyd)
+  - [DIgSILENT PowerFactory (`.pfd`)](#digsilent-powerfactory-pfd)
 - [Open Source Modeling Tools](#open-source-modeling-tools)
   - [PyPSA](#pypsa)
   - [MATPOWER (`.m`)](#matpower-m)
@@ -247,6 +248,11 @@ The following test cases are available in PSSE format:
 
 - **Nordic 44**: [GitHub Repository](https://github.com/ALSETLab/Nordic44-Nordpool/tree/master/nordic44/models)
 
+#### New Zealand Electricity Authority (EA)
+
+- **New Zealand Transmission System Models (North & South Islands)**: Representative PSSE `.sav` and `.raw` files of New Zealand's transmission system. Separate models for North Island and South Island. [NZ EA PSSE files](https://www.emi.ea.govt.nz/Wholesale/Datasets/Transmission/PowerSystemAnalysis/PSSErawFiles)
+
+
 ### PSLF (`.epc` / `.dyd`)
 
 The following test cases are available in GE PSLF format:
@@ -314,11 +320,15 @@ The following test cases are available in GE PSLF format:
 
 - **18-Bus 4-Area Test System**: [NREL Repository](https://www.nrel.gov/grid/test-case-repository) (GE PSLF demonstration system)
 
----
+### DIgSILENT PowerFactory (`.pfd`)
+
+#### New Zealand Electricity Authority (EA)
+
+- **New Zealand Transmission System Models (North & South Islands)**: PowerFactory case files of New Zealand's transmission system, updated annually by Transpower. Separate models for North Island and South Island. [NZ EA PowerFactory Files](https://www.emi.ea.govt.nz/Wholesale/Datasets/Transmission/PowerSystemAnalysis/PowerFactoryCaseFiles)
 
 ## Open Source Modeling Tools
 
-### PyPSA 
+### PyPSA
 
 #### PyPSA-Eur
 - **PyPSA-Eur: An open sector-coupled optimisation model of the European energy system**. [Zenodo](https://zenodo.org/records/15163251)
@@ -482,3 +492,4 @@ Many MATPOWER test cases are available on their [Github](https://github.com/MATP
 - **Iceland 118-bus**: Static and PSAT dynamics. [Edinburgh Network Static](https://webhomes.maths.ed.ac.uk/OptEnergy/NetworkData/iceland/) | [Edinburgh Network Dynamic](https://webhomes.maths.ed.ac.uk/OptEnergy/NetworkData/icelandDyn/)
 - **Irish Network**: Ireland electricity transmission network.
   [Edinburgh Network](https://webhomes.maths.ed.ac.uk/OptEnergy/NetworkData/Ireland/)
+
