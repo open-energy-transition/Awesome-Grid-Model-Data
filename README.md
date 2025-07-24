@@ -326,6 +326,10 @@ The following test cases are available in GE PSLF format:
 
 - **New Zealand Transmission System Models (North & South Islands)**: PowerFactory case files of New Zealand's transmission system, updated annually by Transpower. Separate models for North Island and South Island. [NZ EA PowerFactory Files](https://www.emi.ea.govt.nz/Wholesale/Datasets/Transmission/PowerSystemAnalysis/PowerFactoryCaseFiles)
 
+#### Comité de Operación Económica del Sistema Interconectado Nacional (COES) – Peru
+
+- **Peru SEIN Transmission System Models (DIgSILENT PowerFactory)**: COES, the independent system operator for Peru, publishes PowerFactory case files for the Peruvian interconnected electricity system (SEIN). These datasets include both pre-operational studies ([Pre-operational Studies](https://www.coes.org.pe/Portal/Planificacion/NuevosProyectos/EstudiosPO)) and operational studies ([Operational Studies](https://www.coes.org.pe/Portal/Planificacion/NuevosProyectos/EstudiosO)).
+
 ## Open Source Modeling Tools
 
 ### PyPSA
