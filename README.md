@@ -330,14 +330,24 @@ The following test cases are available in GE PSLF format:
 
 - **Peru SEIN Transmission System Models (DIgSILENT PowerFactory)**: COES, the independent system operator for Peru, publishes PowerFactory case files for the Peruvian interconnected electricity system (SEIN). These datasets include both pre-operational studies ([Pre-operational Studies](https://www.coes.org.pe/Portal/Planificacion/NuevosProyectos/EstudiosPO)) and operational studies ([Operational Studies](https://www.coes.org.pe/Portal/Planificacion/NuevosProyectos/EstudiosO)).
 
+#### Coordinador Eléctrico Nacional (CEN) – Chile
+
+- **SEN PowerFactory Datasets (Chile)**: CEN, the independent system operator for Chile, publishes comprehensive PowerFactory case files for the Sistema Eléctrico Nacional (SEN). These datasets are available for multiple planning horizons:
+  - **Operations**: Represents the current operational state of the SEN, updated monthly to reflect new projects and system changes. [Operations Database](https://www.coordinador.cl/modelacion-sen/documentos/bd-operacion/)
+  - **Short Term (2 years)**: Projects the SEN over a 2-year horizon, including planned expansions and scenarios. [Short Term Database](https://www.coordinador.cl/modelacion-sen/documentos/corto-plazo/)
+  - **Medium Term (5 years)**: Medium-term planning models for the SEN, with a 5-year outlook. [Medium Term Database](https://www.coordinador.cl/modelacion-sen/documentos/mediano-plazo/)
+  - **Long Term (20 years)**: Long-term planning models, projecting the SEN up to 20 years ahead. [Long Term Database](https://www.coordinador.cl/modelacion-sen/documentos/largo-plazo/)
+
 ## Open Source Modeling Tools
 
 ### PyPSA
 
-#### PyPSA-Eur
+#### PyPSA-Eur 
+
 - **PyPSA-Eur: An open sector-coupled optimisation model of the European energy system**. [Zenodo](https://zenodo.org/records/15163251)
 
-#### PyPSA-Earth
+#### PyPSA-Earth 
+
 - **The impact of temporal hydrogen regulation on hydrogen exporters and their domestic energy transition**. [Zenodo](https://zenodo.org/records/10951650)
 
 ### MATPOWER (`.m`)
