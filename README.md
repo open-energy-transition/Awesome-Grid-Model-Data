@@ -322,17 +322,17 @@ The following test cases are available in GE PSLF format:
 
 ### DIgSILENT PowerFactory (`.pfd`)
 
-#### New Zealand Electricity Authority (EA)
+#### New Zealand - Electricity Authority (EA)
 
 - **New Zealand Transmission System Models (North & South Islands)**: PowerFactory case files of New Zealand's transmission system, updated annually by Transpower. Separate models for North Island and South Island. [NZ EA PowerFactory Files](https://www.emi.ea.govt.nz/Wholesale/Datasets/Transmission/PowerSystemAnalysis/PowerFactoryCaseFiles)
 
-#### Comité de Operación Económica del Sistema Interconectado Nacional (COES) – Peru
+#### Peru - Comité de Operación Económica del Sistema Interconectado Nacional (COES)
 
-- **Peru SEIN Transmission System Models (DIgSILENT PowerFactory)**: COES, the independent system operator for Peru, publishes PowerFactory case files for the Peruvian interconnected electricity system (SEIN). These datasets include both pre-operational studies ([Pre-operational Studies](https://www.coes.org.pe/Portal/Planificacion/NuevosProyectos/EstudiosPO)) and operational studies ([Operational Studies](https://www.coes.org.pe/Portal/Planificacion/NuevosProyectos/EstudiosO)).
+- **Sistema Eléctrico Interconectado Nacional (SEIN)**: COES, the independent system operator for Peru, publishes PowerFactory case files for the Peruvian interconnected electricity system (SEIN). These datasets include both pre-operational studies ([Pre-operational Studies](https://www.coes.org.pe/Portal/Planificacion/NuevosProyectos/EstudiosPO)) and operational studies ([Operational Studies](https://www.coes.org.pe/Portal/Planificacion/NuevosProyectos/EstudiosO)).
 
-#### Coordinador Eléctrico Nacional (CEN) – Chile
+#### Chile - Coordinador Eléctrico Nacional (CEN)
 
-- **SEN PowerFactory Datasets (Chile)**: CEN, the independent system operator for Chile, publishes comprehensive PowerFactory case files for the Sistema Eléctrico Nacional (SEN). These datasets are available for multiple planning horizons:
+- **Sistema Eléctrico Nacional (SEN)**: CEN, the independent system operator for Chile, publishes comprehensive PowerFactory case files for the Sistema Eléctrico Nacional (SEN). These datasets are available for multiple planning horizons:
   - **Operations**: Represents the current operational state of the SEN, updated monthly to reflect new projects and system changes. [Operations Database](https://www.coordinador.cl/modelacion-sen/documentos/bd-operacion/)
   - **Short Term (2 years)**: Projects the SEN over a 2-year horizon, including planned expansions and scenarios. [Short Term Database](https://www.coordinador.cl/modelacion-sen/documentos/corto-plazo/)
   - **Medium Term (5 years)**: Medium-term planning models for the SEN, with a 5-year outlook. [Medium Term Database](https://www.coordinador.cl/modelacion-sen/documentos/mediano-plazo/)
